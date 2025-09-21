@@ -1,0 +1,265 @@
+body{background:black;}
+
+.maindiv{
+		padding:50px;
+		background-image:url("pizza background3.jpg");
+		height:800px;
+		width:600px;
+		color:white;
+		position:relative;
+		  background-size: 100% 50%;
+
+		}
+
+
+.type:hover .con{display:block;}
+.pizza{
+		width:400px;
+		height:30px;
+		position:relative;
+
+
+		}
+.con{
+		width:450px;
+		height:915px;
+		position:absolute;
+		display:none;	
+		border:5px solid white;
+		background:black;	
+		left:120px;
+			}
+			
+.con a{
+			line-height:10px;
+			display:block;
+			text-align:left;
+			color:white;
+			text-decoration:none;
+			
+			}
+.hi{
+		width:400px;
+		display:block;
+		height:30px;
+
+
+	
+
+	}
+
+h1{
+		counter-reset:number;
+
+
+}
+h3::before{
+
+		counter-increment:number;
+		content:"" counter(number) ".";
+
+}
+.background{
+
+		text-align:left;
+		margin-left:100px;
+
+}
+
+
+.feild{
+		
+
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.a2{
+		width:500px;
+		height:153px;
+		display:flex;
+		}
+
+
+
+.right{
+		width:260px;
+		height:130px;
+		padding:10px;
+		line-height:15px;
+		border-bottom:2px solid white;
+		}
+.left{	
+		width:150px;
+		height:160px;
+		border-bottom:10px solid black;}
+
+.middle{
+		padding-top:50px;
+		border-bottom:2px solid white;
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#field{
+
+width:400px;
+height:30px;
+		}
+
+#date{
+width:400px;
+height:30px;
+
+}
+
+
+#sub{
+
+width:190px;
+height:30px;
+
+
+		}
+.sub1{
+
+		display:flex;
+
+		}
+
+
+#sub2{
+
+width:90px;
+height:30px;
+
+
+		}
+select{
+width:130px;
+height:30px;
+
+}
+
+#option:hover {
+	background:#E0938D;
+}
+
+
+
+
+
+
+#submit{
+
+width:100px;
+height:30px;
+border-radius:10px;
+margin-left:100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
